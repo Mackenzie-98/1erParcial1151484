@@ -41,4 +41,4 @@ function cargarDatos1(url){
     var url2="https://carlosreneas.github.io/endpoints/categoria_deporte.json";
     var url3="https://carlosreneas.github.io/endpoints/categoria_tecnologia.json";
     cargarDatos1(url1);
-    cargarDatos1(url2);
+    cargarDatos2(url2);
