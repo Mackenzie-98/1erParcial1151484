@@ -4,7 +4,13 @@
 }
 
 #logo{
-    width: 100%;
+    width: 7vw;
+}
+header h1{
+    font-size:3vw;
+}
+header p{
+    font-size: 1vw;
 }
 header .row{
     display:flex;
@@ -12,4 +18,21 @@ header .row{
 }
 #fecha{
     padding-top: 3vw;
+}
+nav div{
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 40%;
+}
+#live{
+    display: flex;
+    align-items: center;
 }
