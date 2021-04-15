@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+#logo{
+    width: 100%;
+}
+header .row{
+    display:flex;
+    align-items: center;
+}
+#fecha{
+    padding-top: 3vw;
+}
