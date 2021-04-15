@@ -15,8 +15,10 @@ function cargarDatos1(url){
   function generarNoticias(datos){
     var cuerpo =document.querySelector("#preliminar");
     var imagen = document.createElement("img");
+    var div=document.createElement("div");
     imagen.src = datos[0].img;
-    cuerpo.appendChild(imagen);
+    div.appendChild(imagen);
+    cuerpo.appendChild(div);
     for(var i = 0; i < Math.min(3,datos.length);i++){
         var seccion = document.createElement("section");
         seccion.innerHTML = 

@@ -31,10 +31,31 @@ nav img{
     align-items: center;
 }
 section img{
-    width: 40vw;
-    display: flex;
-    align-items: center;
+    width: 30vw;
 }
 section{
-    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.icono1{
+    width: 5vw;
+}
+footer #contacto{
+    padding-left: 28vw;
+}
+footer{
+    align-items: center;
+}
+#pie, .sup{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+aside{
+    border:1px solid black;
+}
+#preliminar div{
+    padding-left: 14vw;
+}
+aside h6{
+    padding: 0vw 6vw;
 }
