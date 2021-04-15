@@ -21,13 +21,7 @@ header .row{
 }
 nav div{
     border-right: 1px solid black;
-    display: flex;
-    align-items: center;
     font-size: 1vw;
-}
-nav{
-    display: flex;
-    align-items: center;
 }
 nav img{
     width: 40%;
@@ -35,4 +29,12 @@ nav img{
 #live{
     display: flex;
     align-items: center;
+}
+section img{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+section{
+    
 }
